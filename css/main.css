@@ -953,6 +953,12 @@ input.text:focus {
 	z-index: 4;
 }
 
+img#logo {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 2%;
+}
+
 .ueno-no-csstransitions .hint-arrow {
 	display: none;
 }
@@ -1001,7 +1007,7 @@ input.text:focus {
 /* home hero specific pages */
 
 .hero-home {
-	background-image: url("../img/bg-default.jpg");
+	background-image: url("../img/frame-1.jpg");
 	background-color: #523129;
 	min-height: 400px;
 }
@@ -1020,7 +1026,7 @@ input.text:focus {
 @media ( min-width: 1200px ) {
 	.hero-home {
 		background-color: #5c6164;
-		background-image: url("../img/bg.png");
+		background-image: url("../img/frame-1.jpg");
 	}
 
 }
